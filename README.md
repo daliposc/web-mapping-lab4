@@ -6,4 +6,4 @@ Pressing F12 (on Chrome) and following along with the network requests is highly
 
 You can view the site here: https://daliposc.github.io/web-mapping-lab4/
 
-Fair warning: The Geoserver machine is really, really slow (1.5 GHz single-core, 1.7gb RAM)
+Fair warning: The Geoserver machine is really, really slow (1.5 GHz single-core, 1.7gb RAM). You also cannot load the vector tiles because Geoserver is using HTTP and GitHub requires HTTPS for its hosted pages.
