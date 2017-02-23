@@ -1,0 +1,42 @@
+body {
+    margin: 0 0 0 0
+}
+
+#map-container {
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+
+#wmsmap {
+    height: 50%;
+    width: 50%
+}
+
+#tmsmap {
+    height: 50%;
+    width: 50%
+}
+
+#mvtmap {
+    height:50%;
+    width:100%
+}
+
+.legend {
+    line-height: 16px;
+    width: 290px;
+    color: #f4f4f4;
+    font-family: sans-serif;
+    padding: 6px 8px;
+    background: rgba(25,24,24,0.7);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.legend a {
+    color: #f4f4f4;
+}
